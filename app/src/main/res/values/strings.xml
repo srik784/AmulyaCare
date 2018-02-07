@@ -5,4 +5,35 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="title_activity_services">Services</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="tab_text_1">AYURVEDAM</string>
+    <string name="tab_text_2">LADIES FITNESS</string>
+    <string name="tab_text_3">BEAUTY CARE</string>
+
+    <string name="nasyam">This treatment involves the administration of
+        oils and liquids into the nostrils. It is useful for treatment of
+        kapha-oriented problems, of ear, eyes, nose and it is effective in the treatments of
+        migraine, sinusitis, convulsions ,cervical spondylosis, and frozen shoulder etc .</string>
+
+    <string name="vamana">inducing vomiting specially for kapha related illnesses
+        like asthma, coughs, chronic colds, psoriasis, acne, diabetes etc.
+        Vamana oushadam will be given after fomentation</string>
+
+    <string name="virechana">Virechana is the cleansing of the pitta and the purification of the blood toxins.
+        Here, drugs that stimulate bowel movements are induced for the expulsion of excess Pita.
+        Virechana is used for treatment of skin diseases, chronic fever, piles, abdominal tumors, worms,
+        gout, jaundice, gastrointestinal problems, constipation and irritable bowel syndrome, vatha diseases etc.</string>
+    
+    <string name="raktamokshana">To remove impurities from the blood through leech therapy or other
+        methods It is used for disorders such as urticaria, rash, eczema, acne, scabies,
+        leucoderma, chronic itching etc.</string>
+
+    <string name="vasti">Medicated enemas are used to promote elimination of the Vata dosha out through the rectum.
+        introducing medicinal substances in a liquid medium into the rectum. vata disorders Such as sciatica, arthritis,
+        rheumatism, neurodegenerative conditions, and gout etc </string>
+    <string name="vasti1">
+        2 types of vasthi are there
+        1.Matra vasthi:-mainly warm medicated oils is administrated
+        2.Kashaya vasthi:- mainly herbal decoction</string>
 </resources>
