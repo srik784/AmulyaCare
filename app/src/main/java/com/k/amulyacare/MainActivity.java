@@ -1,5 +1,6 @@
 package com.k.amulyacare;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -85,6 +86,8 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_aboutus) {
 
         } else if (id == R.id.nav_services) {
+            Intent it=new Intent(this,Services.class);
+            startActivity(it);
 
         } else if (id == R.id.nav_treatments) {
 
