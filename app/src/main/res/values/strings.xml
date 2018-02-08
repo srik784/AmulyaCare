@@ -75,8 +75,8 @@
 
     <string name="hair_spa">Hair Spa is a therapeutic and rejuvenating spa treatment,
         inspired by the ancient rituals and traditions of the spa.
-        This hair care program gives your hair an extraordinary sense of well-being and luxury.
-        On the other hand, this hair spa concept can be customized to suit your requirements,
+        This hair care program gives your hair an extraordinary sense of well-being and luxury.</string>
+    <string name="hair_spa1">On the other hand, this hair spa concept can be customized to suit your requirements,
         in short, it lets you emerge revitalized and ready to claim life.</string>
     
     <string name="hair_cutting">The perfect haircut is more than just a few cuts!
@@ -85,14 +85,15 @@
     
     <string name="hair_colouring">Whatever your style, in Amulya Beauty Clinic our expert
         colorists have been trained in the best techniques and latest trends using the best products.
-        We will help you find the perfect shade to complement your look. We offer a variety of high quality
-        color formulas that allow you to get vibrant and durable results without damaging your hair as
+        We will help you find the perfect shade to complement your look.</string>
+    <string name="hair_colouring1">We offer a variety of high quality color formulas that allow you to get vibrant and durable results without damaging your hair as
         we only use Ammonia Free products. Make an appointment today! A little color of your hair to add flavor
         and some to cover gray hair. It is the quickest and easiest way to change your appearance.</string>
 
     <string name="pimples">Effective pimple / acne treatment is one that prevents scars and marks,
         heals existing pimples and keeps the future in the bay. Identifying the exact reason and treating
-        accordingly helps the pimples to disappear for a longer time and sometimes forever.
+        accordingly helps the pimples to</string>
+    <string name="pimples1">disappear for a longer time and sometimes forever.
         Very often, it means looking beyond the skin, into the hormonal factors and lifestyle and correcting them.
         Amulya Beauty Clinic solutions are designed to be holistic, starting with a detailed
         consultation to understand your skin and body, monitor triggers ranging from hormonal problems to
@@ -100,7 +101,8 @@
 
     <string name="whitening">Facials are a strange group, at one point we had over 11 different types of facials!
         D-tan, equity, etc. etc. Now, after years of being in business and seeing what works best for our Honeyz,
-        we have made the selection much simpler. Take a look at the simplified options below.
+        we have made the selection much simpler.</string>
+    <string name="whitening1">Take a look at the simplified options below.
         Think of facials as something made to remove dead skin (exfoliating), while a "face cleaning" is something
         when we are unclogging the pores. Which of these is right for you? Well, it depends on the age,
         the skin type, etc., so come in and we will help you decide based on your skin.</string>

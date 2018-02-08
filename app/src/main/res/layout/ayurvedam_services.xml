@@ -5,10 +5,10 @@
     android:layout_height="match_parent">
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#fffae4"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:background="#fffae4">
 
     <TextView
         android:id="@+id/panchakarma"
@@ -43,7 +43,7 @@
             android:layout_height="wrap_content"
             android:background="#fffae4">
 
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/nasyam_image"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="30dp"
@@ -62,7 +62,7 @@
                 android:textSize="20dp"
                 android:textColor="#000"
                 android:fontFamily="railway"
-               />
+                />
 
             <TextView
                 android:id="@+id/nasyam_text"
@@ -106,7 +106,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:text="VAMANA"/>
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/vamana_image"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
@@ -147,7 +147,7 @@
             android:layout_height="wrap_content"
             android:background="#fffae4">
 
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/virechana_image"
                 android:layout_width="120dp"
                 android:layout_height="180dp"
@@ -211,7 +211,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:text="RAKTAMOKSHANA"/>
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/raktamokshana_image"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
@@ -253,7 +253,7 @@
             android:layout_height="wrap_content"
             android:background="#fffae4">
 
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/vasti_image"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="30dp"
