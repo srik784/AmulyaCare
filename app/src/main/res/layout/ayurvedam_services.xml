@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fffae4">
+
+    <TextView
+        android:id="@+id/panchakarma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#88a21d"
+        android:padding="5dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="#fff"
+        android:fontFamily="railway"
+        android:text="PANCHAKARMA TREATMENTS"/>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/nasyam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/panchakarma"
+        android:layout_margin="20dp"
+        android:alwaysDrawnWithCache="false"
+        app:cardBackgroundColor="#8888f5"
+        app:cardElevation="3dp"
+        app:cardCornerRadius="5dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fffae4">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/nasyam_image"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="120dp"
+                android:layout_height="160dp"
+                android:src="@drawable/nasya" />
+
+            <TextView
+                android:id="@+id/nasyam_head"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:text="NASYAM"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:fontFamily="railway"
+                />
+
+            <TextView
+                android:id="@+id/nasyam_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/nasyam_image"
+                android:layout_below="@id/nasyam_head"
+                android:layout_margin="10dp"
+                android:fontFamily="railway"
+                android:text="@string/nasyam"/>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/vamana"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nasyam"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:alwaysDrawnWithCache="false"
+        app:cardBackgroundColor="#8888f5"
+        app:cardElevation="3dp"
+        app:cardCornerRadius="5dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fffae4">
+
+
+            <TextView
+                android:id="@+id/vamana_head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:fontFamily="railway"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="VAMANA"/>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/vamana_image"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="120dp"
+                android:layout_height="160dp"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/vamana"/>
+            <TextView
+                android:id="@+id/vamana_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_toLeftOf="@id/vamana_image"
+                android:fontFamily="railway"
+                android:text="@string/vamana"
+                android:layout_below="@id/vamana_head"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/virechana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vamana"
+        android:layout_margin="20dp"
+        android:alwaysDrawnWithCache="false"
+        app:cardBackgroundColor="#8888f5"
+        app:cardElevation="3dp"
+        app:cardCornerRadius="5dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fffae4">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/virechana_image"
+                android:layout_width="120dp"
+                android:layout_height="180dp"
+                android:layout_alignLeft="@+id/virechana_head"
+                android:layout_alignStart="@+id/virechana_head"
+                android:layout_centerVertical="true"
+                android:src="@drawable/virechana" />
+
+            <TextView
+                android:id="@+id/virechana_head"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:text="VIRECHANA"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:fontFamily="railway"
+                />
+
+            <TextView
+                android:id="@+id/virechana_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/virechana_image"
+                android:layout_below="@id/virechana_head"
+                android:layout_margin="10dp"
+                android:fontFamily="railway"
+                android:text="@string/nasyam"/>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/raktamokshana"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/virechana"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:alwaysDrawnWithCache="false"
+        app:cardBackgroundColor="#8888f5"
+        app:cardElevation="3dp"
+        app:cardCornerRadius="5dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fffae4">
+
+
+            <TextView
+                android:id="@+id/raktamokshana_head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:fontFamily="railway"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="RAKTAMOKSHANA"/>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/raktamokshana_image"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="120dp"
+                android:layout_height="160dp"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/raktamokshana"/>
+            <TextView
+                android:id="@+id/raktamokshana_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_toLeftOf="@id/raktamokshana_image"
+                android:fontFamily="railway"
+                android:text="@string/raktamokshana"
+                android:layout_below="@id/raktamokshana_head"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/vasti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/raktamokshana"
+        android:layout_margin="20dp"
+        android:alwaysDrawnWithCache="false"
+        app:cardBackgroundColor="#8888f5"
+        app:cardElevation="3dp"
+        app:cardCornerRadius="5dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fffae4">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/vasti_image"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="120dp"
+                android:layout_height="160dp"
+                android:src="@drawable/vasti" />
+
+            <TextView
+                android:id="@+id/vasti_head"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:text="VASTI"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:fontFamily="railway"
+                />
+
+            <TextView
+                android:id="@+id/vasti_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/vasti_image"
+                android:layout_below="@id/vasti_head"
+                android:layout_margin="10dp"
+                android:fontFamily="railway"
+                android:text="@string/nasyam"/>
+            <TextView
+                android:id="@+id/vasti_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/vasti_image"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="Two types of Vasthi are there"/>
+            <TextView
+                android:id="@+id/vasti_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="1.Matra vasthi:-mainly warm medicated oils is administrated."
+                android:layout_below="@id/vasti_text1"/>
+
+            <TextView
+                android:id="@+id/vasti_text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:text="2.Kashaya vasthi:- mainly herbal decoction."
+                android:layout_below="@id/vasti_text2"/>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
+
+</ScrollView>

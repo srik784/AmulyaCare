@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fffae5"
+        tools:context="com.k.amulyacare.About1">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/about"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="#839d18"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:text="About Us"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/about1"
+            android:layout_below="@id/about"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#fffacf"
+            android:text="NO MEDICINE CAN COMPENSATE FOR UN-HEALTHY LIVING"
+            android:background="#806951">
+        </TextView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/about_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="20dp"
+            android:alwaysDrawnWithCache="false"
+            app:cardBackgroundColor="#8888f5"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="5dp"
+            android:layout_below="@+id/about1">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#f7eeb5">
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="18dp"
+                    android:src="@drawable/amla" />
+                <TextView
+                    android:id="@+id/about_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aboutus_1"
+                    android:layout_toLeftOf="@id/image"/>
+                <TextView
+                    android:id="@+id/about_text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/about_text1"
+                    android:text="@string/aboutus_2"/>
+
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/about_card"
+            android:layout_alignStart="@+id/about_card"
+            android:layout_below="@+id/about_card"
+            android:alwaysDrawnWithCache="false"
+            app:cardBackgroundColor="#8888f5"
+            app:cardCornerRadius="5dp"
+            android:layout_marginRight="20dp"
+            app:cardElevation="3dp"
+            android:id="@+id/cardView">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#f7eeb5">
+
+
+                <ImageView
+                    android:id="@+id/owner"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="25dp"
+                    android:background="@drawable/rounded"
+                    android:src="@drawable/owner" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/about_person"
+                    android:layout_toRightOf="@id/owner"
+                    android:layout_marginTop="20dp"
+                    android:text="Dr.P M Krishnan Namboothiripad
+Bsc, BAM Chief physician,
+A-Class Medical practitioner
+Reg No 4372(kerala) Indigenous System Of Medicine"/>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/card1"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/cardView">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#f7eeb5">
+
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/amulya"
+                    android:id="@+id/owner1"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@id/about_person"
+                    android:layout_marginTop="30dp"
+                    android:text="VENUGOPAL SS
+ Managing Director of Amulya Kerala Ayurveda Hospital."
+                    android:layout_toRightOf="@id/owner1"/>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cardView1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@id/card1">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#f7eeb5">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/venu"
+                    android:id="@+id/owner2"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"/>
+
+
+                <TextView
+                    android:id="@id/about_person"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="11dp"
+                    android:layout_toRightOf="@id/owner2"
+                    android:layout_marginRight="21dp"
+                    android:text="DR SINO S SHAJI B.S.M.S.
+                                 A Class Medical Practitioner." />
+
+
+
+
+
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

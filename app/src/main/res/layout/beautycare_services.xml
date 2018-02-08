@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fffae4">
+
+
+        <TextView
+            android:id="@+id/beautycare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#88a21d"
+            android:padding="5dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="#fff"
+            android:fontFamily="railway"
+            android:text="BEAUTY CARE"/>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/hairspa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/beautycare"
+            android:layout_margin="20dp"
+            android:alwaysDrawnWithCache="false"
+            app:cardBackgroundColor="#8888f5"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="5dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fffae4">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/hairspa_image"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="120dp"
+                    android:layout_height="140dp"
+                    android:src="@drawable/spa" />
+
+                <TextView
+                    android:id="@+id/hairspa_head"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="HAIR SPA"
+                    android:textSize="20dp"
+                    android:textColor="#000"
+                    android:fontFamily="railway" />
+
+                <TextView
+                    android:id="@+id/hairspa_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/hairspa_image"
+                    android:layout_below="@id/hairspa_head"
+                    android:layout_margin="10dp"
+                    android:fontFamily="railway"
+                    android:text="@string/hair_spa"/>
+                <TextView
+                    android:id="@+id/hairspa_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/hairspa_image"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="railway"
+
+                    android:text="@string/hair_spa1"/>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/haircutting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hairspa"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:alwaysDrawnWithCache="false"
+            app:cardBackgroundColor="#8888f5"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="5dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fffae4">
+
+
+                <TextView
+                    android:id="@+id/haircutting_head"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:textColor="#000"
+                    android:fontFamily="railway"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="HAIR CUTTING"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/haircutting_image"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/haircut"/>
+
+                <TextView
+                    android:id="@+id/haircutting_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toLeftOf="@id/haircutting_image"
+                    android:fontFamily="railway"
+                    android:text="@string/hair_cutting"
+                    android:layout_below="@id/haircutting_head"/>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/haircoloring"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/haircutting"
+            android:layout_margin="20dp"
+            android:alwaysDrawnWithCache="false"
+            app:cardBackgroundColor="#8888f5"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="5dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fffae4">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/haircoloring_image"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="120dp"
+                    android:layout_height="140dp"
+                    android:src="@drawable/haircolor" />
+
+                <TextView
+                    android:id="@+id/haircoloring_head"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="HAIR COLOURING"
+                    android:textSize="20dp"
+                    android:textColor="#000"
+                    android:fontFamily="railway" />
+
+                <TextView
+                    android:id="@+id/haircoloring_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/haircoloring_image"
+                    android:layout_below="@id/haircoloring_head"
+                    android:layout_margin="10dp"
+                    android:fontFamily="railway"
+                    android:text="@string/hair_colouring"/>
+
+                <TextView
+                    android:id="@+id/haircoloring_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_below="@id/haircoloring_image"
+                    android:layout_margin="15dp"
+                    android:fontFamily="railway"
+                    android:text="@string/hair_colouring1"/>
+
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/pimples"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/haircoloring"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:alwaysDrawnWithCache="false"
+            app:cardBackgroundColor="#8888f5"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="5dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fffae4">
+
+
+                <TextView
+                    android:id="@+id/pimples_head"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:textColor="#000"
+                    android:fontFamily="railway"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="PIMPLES TREATMENTS"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/pimples_image"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/pimples"/>
+
+                <TextView
+                    android:id="@+id/pimples_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toLeftOf="@id/pimples_image"
+                    android:fontFamily="railway"
+                    android:text="@string/pimples"
+                    android:layout_below="@id/pimples_head"/>
+                <TextView
+                    android:id="@+id/pimples_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="railway"
+                    android:text="@string/pimples1"
+                    android:layout_below="@id/pimples_image"/>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/whitening"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pimples"
+            android:layout_margin="20dp"
+            android:alwaysDrawnWithCache="false"
+            app:cardBackgroundColor="#8888f5"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="5dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fffae4">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/whitening_image"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="120dp"
+                    android:layout_height="140dp"
+                    android:src="@drawable/facemasks" />
+
+                <TextView
+                    android:id="@+id/whitening_head"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="WHITENING TREATMENTS"
+                    android:textSize="20dp"
+                    android:textColor="#000"
+                    android:fontFamily="railway" />
+
+                <TextView
+                    android:id="@+id/whitening_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/whitening_image"
+                    android:layout_below="@id/whitening_head"
+                    android:layout_margin="10dp"
+                    android:fontFamily="railway"
+                    android:text="@string/whitening"/>
+                <TextView
+                    android:id="@+id/whitening_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_below="@id/whitening_image"
+                    android:layout_margin="15dp"
+                    android:fontFamily="railway"
+                    android:text="@string/whitening1"/>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+</ScrollView>

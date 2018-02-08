@@ -1,8 +1,9 @@
 package com.k.amulyacare;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
+import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -11,7 +12,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
@@ -29,8 +29,6 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 Toast.makeText(MainActivity.this, "hhi hello elllo", Toast.LENGTH_SHORT).show();
-
-
             }
         });
 
@@ -83,11 +81,8 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_camera) {
-           Intent i=new Intent(this,Home.class);
-            startActivity(i);
+            // Handle the camera action
         } else if (id == R.id.nav_gallery) {
-            Intent i=new Intent(this,ContactUs.class);
-            startActivity(i);
 
         } else if (id == R.id.nav_slideshow) {
 
