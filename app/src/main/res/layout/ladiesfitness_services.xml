@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/ladies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#88a21d"
+        android:padding="5dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="#fff"
+        android:fontFamily="railway"
+        android:text="LADIES FITNESS and BEAUTY CLINIC"/>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/yoga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ladies"
+        android:layout_margin="20dp"
+        android:alwaysDrawnWithCache="false"
+        app:cardBackgroundColor="#8888f5"
+        app:cardElevation="3dp"
+        app:cardCornerRadius="5dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fffae4">
+
+            <ImageView
+                android:id="@+id/yoga_image"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="160dp"
+
+                android:src="@drawable/yoga" />
+
+            <TextView
+                android:id="@+id/yoga_head"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:text="YOGA"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:fontFamily="railway"
+                />
+
+            <TextView
+                android:id="@+id/yoga_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/yoga_image"
+                android:layout_margin="10dp"
+                android:fontFamily="railway"
+                android:text="@string/yoga"/>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/aerobics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/yoga"
+        android:layout_margin="20dp"
+        android:alwaysDrawnWithCache="false"
+        app:cardBackgroundColor="#8888f5"
+        app:cardElevation="3dp"
+        app:cardCornerRadius="5dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fffae4">
+
+            <ImageView
+                android:id="@+id/aerobics_image"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="160dp"
+
+                android:src="@drawable/aerobic" />
+
+            <TextView
+                android:id="@+id/aerobics_head"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:text="AEROBICS"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:fontFamily="railway"
+                />
+
+            <TextView
+                android:id="@+id/aerobics_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/aerobics_image"
+                android:layout_margin="10dp"
+                android:fontFamily="railway"
+                android:text="@string/aerobics"/>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
+</ScrollView>
