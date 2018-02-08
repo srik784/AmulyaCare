@@ -1,6 +1,5 @@
 package com.k.amulyacare;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -81,29 +80,17 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_home) {
+        if (id == R.id.nav_camera) {
             // Handle the camera action
-        } else if (id == R.id.nav_aboutus) {
+        } else if (id == R.id.nav_gallery) {
 
-            Intent it=new Intent(this,About.class);
-            startActivity(it);
+        } else if (id == R.id.nav_slideshow) {
 
+        } else if (id == R.id.nav_manage) {
 
-        } else if (id == R.id.nav_services) {
-            Intent it=new Intent(this,Services.class);
-            startActivity(it);
+        } else if (id == R.id.nav_share) {
 
-        } else if (id == R.id.nav_treatments) {
-
-            Intent it=new Intent(this,Treatments.class);
-                startActivity(it);
-
-        } else if (id == R.id.nav_contact) {
-
-        } else if (id == R.id.nav_consult) {
-
-            Intent it=new Intent(this,Consultation.class);
-              startActivity(it);
+        } else if (id == R.id.nav_send) {
 
         }
 
