@@ -10,6 +10,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#fffae5"
         tools:context="com.k.amulyacare.About1">
 
 
@@ -22,6 +23,9 @@
             android:layout_marginTop="20dp"
             android:background="#839d18"
             android:gravity="center"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="30sp"
             android:text="About Us"/>
 
 
@@ -105,7 +109,7 @@
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_marginLeft="25dp"
-
+                    android:background="@drawable/rounded"
                     android:src="@drawable/owner" />
 
                 <TextView
@@ -188,9 +192,10 @@ Reg No 4372(kerala) Indigenous System Of Medicine"/>
                     android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
                     android:layout_marginEnd="11dp"
+                    android:layout_toRightOf="@id/owner2"
                     android:layout_marginRight="21dp"
                     android:text="DR SINO S SHAJI B.S.M.S.
-A Class Medical Practitioner." />
+                                 A Class Medical Practitioner." />
 
 
 
