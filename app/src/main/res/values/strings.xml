@@ -106,5 +106,46 @@
         Think of facials as something made to remove dead skin (exfoliating), while a "face cleaning" is something
         when we are unclogging the pores. Which of these is right for you? Well, it depends on the age,
         the skin type, etc., so come in and we will help you decide based on your skin.</string>
+    <string name="sirovasthi">
+
+Lukewarm medicated oils are poured into a cap fitted on the head and stagnated for a prescribed time according to patient’s condition.. Indication: Facial Paralysis, Paralysis, dryness of nostrils, mouth and throat, severe headaches, burning sensation of head and other Vata-borne Diseases, Hairfall, Thinning and greying of Hair etc.
+
+    </string>
+
+    <string name="sirodhara">
+        In this procedure, herbal oils, medicated buttermilk or milk or decoction etc are poured slowly on the forehead ,from definite height and time .
+        Indication: Insomnia, mental tension, Paralysis, headache, migraine, sinusitis, certain skin diseases, stress and strain, depression, hair care etc.
+    </string>
+    
+    <string name="netratarpanam">
+
+        It is a eye treatment, which gives a cooling effect to the eyes, prevents eye diseases and strengthens optic nerve, also improves eyesight..
+Indications: due to TV, computer, pollution; tired eyes, watering of eyes, dimness of vision at night. It helps in preventing early formations of cataract.
+
+    </string>
+
+    <string name="karna">
+
+
+    It involves filling the ears with medicated oil
+    Indications: ears, earache, ear wax, tinnitus, tingling sensation in the ears etc
+
+    </string>
+
+
+    <string name="greeva">
+
+
+   For this, specially prepared warm medicated oil is kept over the upper back within the herbal paste boundary.
+Indications: cervical spondylitis .
+
+    </string>
+
+<string name="kativasthi">
+
+    For this, specially prepared warm medicated oil is kept over the lower back within the herbal paste boundary.
+Indications: All types of back pain and spinal pain, slip disc, sciatica, spondylitis etc.
+</string>
+
 
 </resources>
