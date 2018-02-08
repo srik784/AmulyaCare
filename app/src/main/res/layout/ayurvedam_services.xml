@@ -41,7 +41,7 @@
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#f7eeb5">
+            android:background="#fffae4">
 
             <ImageView
                 android:id="@+id/nasyam_image"
@@ -92,7 +92,7 @@
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#f7eeb5">
+            android:background="#fffae4">
 
 
             <TextView
@@ -145,7 +145,7 @@
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#f7eeb5">
+            android:background="#fffae4">
 
             <ImageView
                 android:id="@+id/virechana_image"
@@ -197,7 +197,7 @@
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#f7eeb5">
+            android:background="#fffae4">
 
 
             <TextView
@@ -251,7 +251,7 @@
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#f7eeb5">
+            android:background="#fffae4">
 
             <ImageView
                 android:id="@+id/vasti_image"
@@ -306,6 +306,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
                 android:text="2.Kashaya vasthi:- mainly herbal decoction."
                 android:layout_below="@id/vasti_text2"/>
 
