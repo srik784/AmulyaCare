@@ -1,12 +1,14 @@
 package com.k.amulyacare;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.animation.AnimationUtils;
+import android.widget.TextView;
 import android.widget.ViewFlipper;
 
 public class Home extends AppCompatActivity {
@@ -14,11 +16,14 @@ public class Home extends AppCompatActivity {
     private static final int SWIPE_THRESHOLD_VELOCITY = 200;
     private ViewFlipper mViewFlipper;
     private Context mContext;
+
+    TextView tv_specialities;
    private final GestureDetector detector = new GestureDetector(new SwipeGestureDetector());
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+        tv_specialities=(TextView)findViewById(R.id.specialities);
 
         mContext = this;
         mViewFlipper = (ViewFlipper) this.findViewById(R.id.view_flipper);
@@ -27,6 +32,17 @@ public class Home extends AppCompatActivity {
             public boolean onTouch(final View view, final MotionEvent event) {
                 detector.onTouchEvent(event);
                 return true;
+            }
+        });
+
+
+        tv_specialities.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent i=new Intent(Home.this,Specialities.class);
+                startActivity(i);
+
             }
         });
     }
@@ -54,4 +70,5 @@ public class Home extends AppCompatActivity {
             return false;
         }
     }
+
 }
