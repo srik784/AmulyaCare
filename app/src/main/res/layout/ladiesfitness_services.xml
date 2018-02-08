@@ -6,6 +6,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#fffae4"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TextView
@@ -40,7 +41,7 @@
             android:layout_height="wrap_content"
             android:background="#fffae4">
 
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/yoga_image"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="30dp"
@@ -91,7 +92,7 @@
             android:layout_height="wrap_content"
             android:background="#fffae4">
 
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/aerobics_image"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="40dp"
@@ -121,6 +122,56 @@
                 android:layout_margin="10dp"
                 android:fontFamily="railway"
                 android:text="@string/aerobics"/>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/gym"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aerobics"
+        android:layout_margin="20dp"
+        android:alwaysDrawnWithCache="false"
+        app:cardBackgroundColor="#8888f5"
+        app:cardElevation="3dp"
+        app:cardCornerRadius="5dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fffae4">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/gym_image"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="160dp"
+
+                android:src="@drawable/gym" />
+
+            <TextView
+                android:id="@+id/gym_head"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:text="GYM"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:fontFamily="railway"
+                />
+
+            <TextView
+                android:id="@+id/gym_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gym_image"
+                android:layout_margin="10dp"
+                android:fontFamily="railway"
+                android:text="@string/gym"/>
 
         </RelativeLayout>
     </android.support.v7.widget.CardView>
