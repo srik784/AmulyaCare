@@ -78,11 +78,11 @@
         This hair care program gives your hair an extraordinary sense of well-being and luxury.</string>
     <string name="hair_spa1">On the other hand, this hair spa concept can be customized to suit your requirements,
         in short, it lets you emerge revitalized and ready to claim life.</string>
-    
+
     <string name="hair_cutting">The perfect haircut is more than just a few cuts!
-        The Amulya Beauty Parlor team works with you to give you the best style of 
+        The Amulya Beauty Parlor team works with you to give you the best style of
         hairstyle that suits your face and personality.</string>
-    
+
     <string name="hair_colouring">Whatever your style, in Amulya Beauty Clinic our expert
         colorists have been trained in the best techniques and latest trends using the best products.
         We will help you find the perfect shade to complement your look.</string>
@@ -116,7 +116,7 @@ Lukewarm medicated oils are poured into a cap fitted on the head and stagnated f
         In this procedure, herbal oils, medicated buttermilk or milk or decoction etc are poured slowly on the forehead ,from definite height and time .
         Indication: Insomnia, mental tension, Paralysis, headache, migraine, sinusitis, certain skin diseases, stress and strain, depression, hair care etc.
     </string>
-    
+
     <string name="netratarpanam">
 
         It is a eye treatment, which gives a cooling effect to the eyes, prevents eye diseases and strengthens optic nerve, also improves eyesight..
@@ -141,16 +141,67 @@ Indications: cervical spondylitis .
 
     </string>
 
-<string name="kativasthi">
+    <string name="kativasthi">
 
     For this, specially prepared warm medicated oil is kept over the lower back within the herbal paste boundary.
 Indications: All types of back pain and spinal pain, slip disc, sciatica, spondylitis etc.
 </string>
+
 
     <string name="januvasthi">
-
-    For this, specially prepared warm medicated oil is kept over the lower back within the herbal paste boundary.
-Indications: All types of back pain and spinal pain, slip disc, sciatica, spondylitis etc.
+In this treatment, medicated oils,are pooled in a ring ,kept around the knee joint .
+Indications: Osteoarthritis,knee pain etc.
 </string>
 
+    <string name="kaadidhara">
+To cleanse the body using Panchakarma Procedures like Snehapana, Abhyanga and Sweda follwed by Virechana which detoxifies the body and prepares it for Further treatment. Internal medication to subside the aggravated doshas. Specific treatment like Podikizhi(herbal powder), Elakizhi(Herbal Leaf Bag),Pizhichil etc whch is done for a course of 3-7 days as per requirement. In case of Rheumatoid arthritis special procedures like Dhanyamladhara,Kaadi dhara is done for to reduce swelling then it is followed by a course of Dry procedures such as Valuka Sweda and Udwarthana and Sweda .Generally procedures using oil are contra indicated in this case. In Lumbago localized treatment for back is done like Kati Basti, Katipichu .In case there is pain radiating to the legs then treatments can be done locally to the area below buttocks like Podikizhi or Pizhichil which will decrease the aggravated vata. After Treatment course we recommend:
+</string>
+
+    <string name="pizhichil">
+In this treatment, medicated oils,are pooled in a ring ,kept around the knee joint .
+Indications: Osteoarthritis,knee pain etc.
+</string>
+
+
+    <string name="abhyangam">
+This is a type of oil massage which enhances blood flow and is usually given as pre-procedure to many therapies as well as a separate therapy itself.
+Indications: Obesity, rheumatism, blood pressure, spondylitis, weakness, stress and strain, rejuvenations, relaxation, vigor and vitality sports persons etc
+</string>
+
+<string name="njavarakizhi">
+
+
+    A special type of Rice called Njavara is cooked in milk and herbal decoction is tied up in the form of boluses and apply all over body or the affected part for a stipulated period .
+Indications: Nervous stimulation ,strengthening of muscles, Emaciation of limbs, skin diseases, rheumatic complaints etc.
+</string>
+    
+<string name="steambath">
+
+    A steam room is an enclosed space with large amounts of high-temperature steam, creating a high-humidity environment. People sit in this room in a similar way to a sauna (conversely a hot, but dry atmosphere), for relaxation and purported benefits to health and well-being. They can be commonly found in gyms, sanitariums and health resorts. Smaller, standalone steamroom enclosures can also be found in residential buildings.
+</string>
+
+
+    <string name="udvar">
+
+
+        This is a typical massage with herbal powders, useful for burning fat under the skin. It helps to loose weight, exfoliates dead skin.
+Indications: Obesity, Skin Ailments, Impaired Blood Circulation etc
+    </string>
+
+    <string name="slider_1">SIROVASTHI</string>
+    <string name="slider_2">MUKHALEPAM</string>
+    <string name="slider_3">NETRATARPANAM</string>
+
+    <string name="vata">Vata skin type is generally dry, thin, cool to the touch and very delicate. It is vulnerable to harsh weather conditions, especially dry windy weather. This skin type age faster and tends to be dry, rough and very flaky when proper care is not taken.</string>
+    <string name="kapha">This skin type is oily, thick and is very soft. It tends to age slowly and people with this skin type may face various problems such as enlarged pores, dull complexion, excessive oil, pimples and blackheads etc.</string>
+    <string name="pitta">Pitta skin is fair, sensitive, soft and is not very thick. When proper care is not taken problems like rashes, acne, or sunspots can occur. Effective Ayurveda Skin Care Treatment LEPANAM</string>
+    <string name="procedure1_text">Kativasthi is a popular Ayurvedic treatment in Kerala, in which heat is applied to specific portion of the body by retaining warm medicated oils. A dam of herbal dough is built on the affected area, poured with oil and then left to rest. As a result, it helps in rejuvenating your body by relieving pain, tension and swelling. This Ayurvedic therapy helps to get rid from chronic and acute back pain, prolapsed disc, lumbar spondylitis, sciatica and osteoporosis.</string>
+    <string name="procedure2_text">sira means head and dhara is the continues flow. This ayurveda treatment is a continuous flow of oil on the body of the patient. Sirodhara is a cold massage. Dhara uses oils as well as some concoctions. Sirodhara is carried out, by using a pot having a yarn wick fitted into the hole. This pot would be hanged over the wooden vessel in which the patient is lying. The medications would be poured into the pot and the liquid would be gradually trickled onto the head...</string>
+    <string name="obesity">Weight gaining due to sedentary life style, hereditary , lack of exercises, hormonal imbalance, anxiety, food habits.
+                           Treatments :-Powder massage ,general massage, special steam bath , with diet restrictions and exercises</string>
+    <string name="stress">In Ayurveda, insomnia is known as Anidra. Aggravated vata, pitta dosha is the main cause for insomnia. The Ayurvedic treatment of insomnia focuses on balancing the aggravated Doshas.
+                            According to Ayurveda, stress is a state where the mind is imbalanced. imbalances are caused when “sattva” decreases and “rajas” and “tamas” increases. When such a state is prolonged, the mind becomes stressed. This may lead to other mental disorders like anxiety, depression, fear, and nervous debility.
+                            Treatments :-sirodhara, sirovasthi, pichu, Thalam, head massage etc</string>
+
+    <string name="title_activity_contact_us">Map</string>
 </resources>
