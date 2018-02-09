@@ -161,4 +161,6 @@ Indications: All types of back pain and spinal pain, slip disc, sciatica, spondy
     <string name="stress">In Ayurveda, insomnia is known as Anidra. Aggravated vata, pitta dosha is the main cause for insomnia. The Ayurvedic treatment of insomnia focuses on balancing the aggravated Doshas.
                             According to Ayurveda, stress is a state where the mind is imbalanced. imbalances are caused when “sattva” decreases and “rajas” and “tamas” increases. When such a state is prolonged, the mind becomes stressed. This may lead to other mental disorders like anxiety, depression, fear, and nervous debility.
                             Treatments :-sirodhara, sirovasthi, pichu, Thalam, head massage etc</string>
+
+    <string name="title_activity_contact_us">Map</string>
 </resources>
