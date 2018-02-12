@@ -177,4 +177,8 @@ Indications: All types of back pain and spinal pain, slip disc, sciatica, spondy
                             Treatments :-Internal medicines ,external treatments like leapanam, fumigation therapy</string>
     <string name="title_activity_specialities">Specialities</string>
     <string name="title_activity_contact_us">Map</string>
+    <string name="kaadidhara" />
+    <string name="pizhichil" />
+    <string name="abhyangam" />
+    <string name="udvar" />
 </resources>
