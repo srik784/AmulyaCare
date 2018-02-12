@@ -10,7 +10,7 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-import static com.k.amulyacare.R.id.map;
+
 
 public class ContactUs extends FragmentActivity implements OnMapReadyCallback {
 
@@ -22,7 +22,7 @@ public class ContactUs extends FragmentActivity implements OnMapReadyCallback {
         setContentView(R.layout.activity_contact_us);
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
-                .findFragmentById(map);
+                .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
 
       /*  MapFragment mMapFragment = MapFragment.newInstance();
