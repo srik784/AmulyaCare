@@ -177,8 +177,23 @@ Indications: All types of back pain and spinal pain, slip disc, sciatica, spondy
                             Treatments :-Internal medicines ,external treatments like leapanam, fumigation therapy</string>
     <string name="title_activity_specialities">Specialities</string>
     <string name="title_activity_contact_us">Map</string>
-    <string name="kaadidhara" />
-    <string name="pizhichil" />
-    <string name="abhyangam" />
-    <string name="udvar" />
+    <string name="kaadidhara">
+        To cleanse the body using Panchakarma Procedures like Snehapana, Abhyanga and Sweda follwed by Virechana which detoxifies the body and prepares it for Further treatment. Internal medication to subside the aggravated doshas. Specific treatment like Podikizhi(herbal powder), Elakizhi(Herbal Leaf Bag),Pizhichil etc whch is done for a course of 3-7 days as per requirement. In case of Rheumatoid arthritis special procedures like Dhanyamladhara,Kaadi dhara is done for to reduce swelling then it is followed by a course of Dry procedures such as Valuka Sweda and Udwarthana and Sweda .Generally procedures using oil are contra indicated in this case. In Lumbago localized treatment for back is done like Kati Basti, Katipichu .In case there is pain radiating to the legs then treatments can be done locally to the area below buttocks like Podikizhi or Pizhichil which will decrease the aggravated vata. After Treatment course we recommend:
+
+    </string>
+    <string name="pizhichil">
+
+        Stream of warm medicated oil poured all over the body along with gentle massage..
+Indications: Rheumatic disease, arthritis, spondylitis, paralysis, hemiplegia, paraplegia, sexual weakness, nervous weakness etc
+    </string>
+    <string name="abhyangam">
+
+
+        This is a type of oil massage which enhances blood flow and is usually given as pre-procedure to many therapies as well as a separate therapy itself.
+Indications: Obesity, rheumatism, blood pressure, spondylitis, weakness, stress and strain, rejuvenations, relaxation, vigor and vitality sports persons etc
+    </string>
+    <string name="udvar">
+This is a typical massage with herbal powders, useful for burning fat under the skin. It helps to loose weight, exfoliates dead skin.
+Indications: Obesity, Skin Ailments, Impaired Blood Circulation etc
+    </string>
 </resources>
