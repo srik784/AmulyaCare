@@ -146,4 +146,35 @@ Indications: cervical spondylitis .
     For this, specially prepared warm medicated oil is kept over the lower back within the herbal paste boundary.
 Indications: All types of back pain and spinal pain, slip disc, sciatica, spondylitis etc.
 </string>
+
+    <string name="slider_1">SIROVASTHI</string>
+    <string name="slider_2">MUKHALEPAM</string>
+    <string name="slider_3">NETRATARPANAM</string>
+
+    <string name="vata">Vata skin type is generally dry, thin, cool to the touch and very delicate. It is vulnerable to harsh weather conditions, especially dry windy weather. This skin type age faster and tends to be dry, rough and very flaky when proper care is not taken.</string>
+    <string name="kapha">This skin type is oily, thick and is very soft. It tends to age slowly and people with this skin type may face various problems such as enlarged pores, dull complexion, excessive oil, pimples and blackheads etc.</string>
+    <string name="pitta">Pitta skin is fair, sensitive, soft and is not very thick. When proper care is not taken problems like rashes, acne, or sunspots can occur. Effective Ayurveda Skin Care Treatment LEPANAM</string>
+    <string name="procedure1_text">Kativasthi is a popular Ayurvedic treatment in Kerala, in which heat is applied to specific portion of the body by retaining warm medicated oils. A dam of herbal dough is built on the affected area, poured with oil and then left to rest. As a result, it helps in rejuvenating your body by relieving pain, tension and swelling. This Ayurvedic therapy helps to get rid from chronic and acute back pain, prolapsed disc, lumbar spondylitis, sciatica and osteoporosis.</string>
+    <string name="procedure2_text">sira means head and dhara is the continues flow. This ayurveda treatment is a continuous flow of oil on the body of the patient. Sirodhara is a cold massage. Dhara uses oils as well as some concoctions. Sirodhara is carried out, by using a pot having a yarn wick fitted into the hole. This pot would be hanged over the wooden vessel in which the patient is lying. The medications would be poured into the pot and the liquid would be gradually trickled onto the head...</string>
+    <string name="obesity">Weight gaining due to sedentary life style, hereditary , lack of exercises, hormonal imbalance, anxiety, food habits.
+                           Treatments :-Powder massage ,general massage, special steam bath , with diet restrictions and exercises</string>
+    <string name="stress">In Ayurveda, insomnia is known as Anidra. Aggravated vata, pitta dosha is the main cause for insomnia. The Ayurvedic treatment of insomnia focuses on balancing the aggravated Doshas.
+                            According to Ayurveda, stress is a state where the mind is imbalanced. imbalances are caused when “sattva” decreases and “rajas” and “tamas” increases. When such a state is prolonged, the mind becomes stressed. This may lead to other mental disorders like anxiety, depression, fear, and nervous debility.
+                            Treatments :-sirodhara, sirovasthi, pichu, Thalam, head massage etc</string>
+    <string name="lowbackpain">Spondylosis, is a degenerative disorder that may cause loss of normal spinal structure and function..
+                            Symptoms:- localized pain, swelling, movement restriction , radiating pain and numbness in the lower limbs
+                            Treatments :-Internal medicines kadivasthi, massages ,kizhi ,Matra vasthi,Kashaya vasthi etc</string>
+    <string name="cervicalpain">Spondylosis, is a degenerative disorder that may cause loss of normal spinal structure and function
+                                Symptoms:- localized pain, swelling, movement restriction , radiating pain and numbness in the upper limbs The first line of treatment will be internal medicines to reduce aama and regularize digestion then advise for massage and fomentation with leaves or powder .etc
+                                Treatments :-medicines greevavasthi, massages,kizhi,Nasyam etc</string>
+    <string name="arthritis">This is due to increased Aama in the body.
+                            Symptoms:- swelling, fever, heaviness and restricted movements in the joints. The first line of treatment will be internal medicines to reduce aama and regularize digestion then advise for massage and fomentation with leaves or powder .etc</string>
+    <string name="aralysis">Paralysis is loss of muscle function coordination in some part of body , accompanied by a loss of feeling (sensory loss) in the affected area. Most of the paralysis is due to strokes or spinal cord injury
+                            According to Ayurveda concept this is due to imbalance of VATHA,which is responsible for coordination of voluntary movements
+                            Treatments :-sirodhara, nasyam , pizhichil, njavara, kizhi ,massage.</string>
+    <string name="piles">According to ayurveda, haemorrhoids or piles are caused due to simultaneous vitiation of all the three doshas - vatta, kapha, and pitta
+                            Symptoms :-Constipation ,bleeding ,pain
+                            Treatments :-Internal medicines ,external treatments like leapanam, fumigation therapy</string>
+    <string name="title_activity_specialities">Specialities</string>
+    <string name="title_activity_contact_us">Map</string>
 </resources>
