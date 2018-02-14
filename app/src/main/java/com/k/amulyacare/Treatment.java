@@ -3,11 +3,11 @@ package com.k.amulyacare;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Consultation extends AppCompatActivity {
+public class Treatment extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_consultation);
+        setContentView(R.layout.activity_treatment);
     }
 }
