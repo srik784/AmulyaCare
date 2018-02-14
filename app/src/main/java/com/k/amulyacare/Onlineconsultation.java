@@ -2,17 +2,12 @@ package com.k.amulyacare;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.TextView;
 
-public class Treatments extends AppCompatActivity {
-
+public class Onlineconsultation extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_treatments);
-
-
-
+        setContentView(R.layout.activity_onlineconsultation);
     }
 }
