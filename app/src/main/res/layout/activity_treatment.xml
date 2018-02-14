@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fffae5"
+        tools:context="com.k.amulyacare.Treatments">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="TREATMENTS"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:id="@+id/treatment"
+            android:background="#839d18"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="30sp"/>
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/cardView"
+            android:layout_below="@id/treatment">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fffae5">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SIROVASTHI"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:id="@+id/sirovasthi1"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/SIROVASTHI"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/sirovasthi"
+                    android:layout_marginTop="60dp"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sirovasthi"
+                    android:layout_marginRight="20dp"
+                    android:layout_below="@id/sirovasthi1"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@id/SIROVASTHI"
+                    android:id="@+id/sirovasthi2"/>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cardView"
+            android:id="@+id/cardView1"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:background="#fffae5">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SIRODHARA"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:id="@+id/sirodhara"/>
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/image_sirodhara"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/sirodhara"
+                    android:layout_marginTop="60dp"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sirodhara"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_toRightOf="@id/image_sirodhara"
+                    android:id="@+id/content_sirodhara"/>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cardView1"
+            android:id="@+id/cardView2"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fffae5">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NETRATARPANAM"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/sirovas"/>
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/image_netratarpanam"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/herbal2"
+                    android:layout_marginTop="60dp"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/netratarpanam"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_toRightOf="@id/image_netratarpanam"
+                    android:id="@+id/netretarp"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cardView2"
+            android:id="@+id/cardView3"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fffae5">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="KARNAPOORNAM"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/KARNAPOORNAM"/>
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/image_KARNAPOORNAM"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/karna"
+                    android:layout_marginTop="60dp"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/karna"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_toRightOf="@id/image_KARNAPOORNAM"
+                    android:id="@+id/KARNAPOORNAM1"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cardView3"
+            android:id="@+id/cardView4"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fffae5">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GREEVAVASTHI"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/GREEVAVASTHI"/>
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/image_GREEVAVASTHI"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/greeva"
+                    android:layout_marginTop="60dp"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/greeva"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_toRightOf="@id/image_GREEVAVASTHI"
+                    android:id="@+id/CONTENT_GREEVAVASTHI"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cardView4"
+            android:id="@+id/cardView5"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fffae5">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="KATIVASTHI"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/KATIVASTHI"/>
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/image_KATIVASTHI"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/n"
+                    android:layout_marginTop="60dp"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kativasthi"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_toRightOf="@id/image_KATIVASTHI"
+                    android:id="@+id/CONTENT_KATIVASTHI"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cardView5"
+            android:id="@+id/cardView6"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fffae5">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="JANUVASTHI"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/januvasthi"/>
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/image_januvasthi"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/janu"
+                    android:layout_marginTop="60dp"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kativasthi"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_toRightOf="@id/image_januvasthi"
+                    android:id="@+id/CONTENT_januvasthi"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cardView6"
+            android:id="@+id/cardView7"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fffae5">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="KAADIDHARA"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/kaadidhara"/>
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/image_kaadidhara"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/kaad"
+                    android:layout_marginTop="60dp"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kaadidhara"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_toRightOf="@id/image_kaadidhara"
+                    android:id="@+id/CONTENT_kaadidhara"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cardView7"
+            android:id="@+id/cardView8"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fffae5">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PIZHICHIL"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:id="@+id/pizhichil"/>
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/image_pizhichil"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/piz"
+                    android:layout_marginTop="60dp"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pizhichil"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_toRightOf="@id/image_pizhichil"
+                    android:id="@+id/CONTENT_pizhichil"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cardView8"
+            android:id="@+id/cardView9"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fffae5">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ABHYANGAM"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/abhyangam"/>
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/image_abhyangam"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/abh"
+                    android:layout_marginTop="60dp"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/abhyangam"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_toRightOf="@id/image_abhyangam"
+                    android:id="@+id/CONTENT_abhyangam"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cardView9"
+            android:id="@+id/cardView10"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fffae5">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NJAVARAKIZHI"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/njavarakizhi"/>
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/image_njavarakizhi"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/nja"
+                    android:layout_marginTop="60dp"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nasyam"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_toRightOf="@id/image_njavarakizhi"
+                    android:id="@+id/CONTENT_njavarakizhi"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cardView10"
+            android:id="@+id/cardView11"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fffae5">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="STEAM BATH"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/steambath"/>
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/image_steambath"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/steam"
+                    android:layout_marginTop="60dp"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/abhyangam"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_toRightOf="@id/image_steambath"
+                    android:id="@+id/CONTENT_steambath"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cardView11"
+            android:id="@+id/cardView12"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fffae5">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="UDVARTANAM"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/udvartanam"/>
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/image_udvartanam"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/udvar"
+                    android:layout_marginTop="60dp"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/udvar"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_toRightOf="@id/image_udvartanam"
+                    android:id="@+id/CONTENT_udvartanam"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
