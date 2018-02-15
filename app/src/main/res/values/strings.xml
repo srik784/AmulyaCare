@@ -173,6 +173,7 @@ Indications: All types of back pain and spinal pain, slip disc, sciatica, spondy
                             According to Ayurveda concept this is due to imbalance of VATHA,which is responsible for coordination of voluntary movements
     <string name="paralysis_treatments">sirodhara, nasyam , pizhichil, njavara, kizhi ,massage.</string>
     <string name="piles">According to ayurveda, haemorrhoids or piles are caused due to simultaneous vitiation of all the three doshas - vatta, kapha, and pitta</string>
+    <string name="piles_symptoms">Constipation ,bleeding ,pain</string>
     <string name="piles_treatments">Internal medicines ,external treatments like leapanam, fumigation therapy</string>
 
     <string name="title_activity_specialities">Specialities</string>
