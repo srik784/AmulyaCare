@@ -8,6 +8,7 @@ import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.ViewFlipper;
 
@@ -18,15 +19,18 @@ public class Home extends AppCompatActivity {
     private Context mContext;
 
     TextView tv_specialities;
+    ImageView iv1,iv2;
    private final GestureDetector detector = new GestureDetector(new SwipeGestureDetector());
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         tv_specialities=(TextView)findViewById(R.id.specialities);
-
+        iv1=(ImageView)findViewById(R.id.image_1);
+        iv2=(ImageView)findViewById(R.id.image_2);
         mContext = this;
         mViewFlipper = (ViewFlipper) this.findViewById(R.id.view_flipper);
+        mViewFlipper.setAutoStart(true);
         mViewFlipper.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(final View view, final MotionEvent event) {
@@ -42,6 +46,28 @@ public class Home extends AppCompatActivity {
 
                 Intent i=new Intent(Home.this,Specialities.class);
                 startActivity(i);
+
+            }
+        });
+
+        iv1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent i=new Intent(Home.this,Treatment.class);
+                startActivity(i);
+
+
+            }
+        });
+
+        iv2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent i=new Intent(Home.this,Treatment.class);
+                startActivity(i);
+
 
             }
         });
