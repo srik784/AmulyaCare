@@ -109,6 +109,7 @@
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_marginLeft="25dp"
+                    android:layout_marginTop="7dp"
                     android:background="@drawable/rounded"
                     android:src="@drawable/owner" />
 
@@ -118,7 +119,7 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/about_person"
                     android:layout_toRightOf="@id/owner"
-                    android:layout_marginTop="20dp"
+
                     android:text="Dr.P M Krishnan Namboothiripad
 Bsc, BAM Chief physician,
 A-Class Medical practitioner
@@ -148,13 +149,14 @@ Reg No 4372(kerala) Indigenous System Of Medicine"/>
                     android:layout_height="100dp"
                     android:src="@drawable/amulya"
                     android:id="@+id/owner1"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@id/about_person"
-                    android:layout_marginTop="30dp"
+                    android:layout_marginTop="10dp"
                     android:text="VENUGOPAL SS
  Managing Director of Amulya Kerala Ayurveda Hospital."
                     android:layout_toRightOf="@id/owner1"/>
@@ -181,7 +183,8 @@ Reg No 4372(kerala) Indigenous System Of Medicine"/>
                     android:layout_height="100dp"
                     android:src="@drawable/venu"
                     android:id="@+id/owner2"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
                     android:layout_marginLeft="20dp"/>
 
 
