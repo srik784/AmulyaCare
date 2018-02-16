@@ -15,7 +15,7 @@ public class BeautycareServices extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.beautycare_services, container, false);
+        View rootView = inflater.inflate(R.layout.beautycare_services, null);
         return rootView;
     }
 }
