@@ -1,7 +1,10 @@
 package com.k.amulyacare;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
+import android.view.View;
+import android.widget.FrameLayout;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -16,6 +19,8 @@ public class ContactUs extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
 
+    FrameLayout fl;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,12 +29,24 @@ public class ContactUs extends FragmentActivity implements OnMapReadyCallback {
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
+        fl=(FrameLayout)findViewById(R.id.online_consultation);
+
 
       /*  MapFragment mMapFragment = MapFragment.newInstance();
         FragmentTransaction fragmentTransaction =
                 getFragmentManager().beginTransaction();
         fragmentTransaction.add(R.id.my_container, mMapFragment);
         fragmentTransaction.commit();    */
+
+
+      fl.setOnClickListener(new View.OnClickListener() {
+          @Override
+          public void onClick(View v) {
+
+              Intent i=new Intent(ContactUs.this,Onlineconsultation.class);
+              startActivity(i);
+          }
+      });
     }
 
 
@@ -58,4 +75,6 @@ public class ContactUs extends FragmentActivity implements OnMapReadyCallback {
                 "510051 anantapuram");
         mMap.addMarker(mo);
     }
+
+
 }
