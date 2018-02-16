@@ -256,6 +256,7 @@
                 android:layout_below="@id/procedure1_heading"
                 android:text="@string/procedure1_text"/>
             <ImageView
+                android:id="@+id/image_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/add"
@@ -293,6 +294,7 @@
                 android:layout_below="@id/procedure2_heading"
                 android:text="@string/procedure2_text"/>
             <ImageView
+                android:id="@+id/image_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/add"
