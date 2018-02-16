@@ -65,6 +65,7 @@
                     android:text="@string/sirovasthi"
                     android:layout_marginRight="20dp"
                     android:layout_below="@id/sirovasthi1"
+
                     android:layout_marginLeft="20dp"
                     android:layout_toRightOf="@id/SIROVASTHI"
                     android:id="@+id/sirovasthi2"/>
