@@ -1,9 +1,12 @@
 package com.k.amulyacare;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.FrameLayout;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -18,6 +21,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 public class ContactUs extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
+    Button bt_message;
 
     FrameLayout fl;
 
@@ -25,6 +29,7 @@ public class ContactUs extends FragmentActivity implements OnMapReadyCallback {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contact_us);
+        bt_message=(Button)findViewById(R.id.enquairy_button);
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
@@ -45,6 +50,22 @@ public class ContactUs extends FragmentActivity implements OnMapReadyCallback {
 
               Intent i=new Intent(ContactUs.this,Onlineconsultation.class);
               startActivity(i);
+          }
+      });
+
+
+      bt_message.setOnClickListener(new View.OnClickListener() {
+          @Override
+          public void onClick(View v) {
+
+              EditText et=(EditText)findViewById(R.id.enquairy_message);
+              String s1=et.getText().toString();
+
+              String mblNumVar = "9440785957";
+              Intent smsMsgAppVar = new Intent(Intent.ACTION_VIEW);
+              smsMsgAppVar.setData(Uri.parse("sms:" +  mblNumVar));
+              smsMsgAppVar.putExtra("sms_body",s1);
+              startActivity(smsMsgAppVar);
           }
       });
     }
