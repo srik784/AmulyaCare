@@ -180,6 +180,7 @@ public class Home extends AppCompatActivity
     }
     public void ourSpec(View view) {
         Intent it=new Intent(this,Specialities.class);
+
         if(view.getId()==R.id.obesity)
         {
             it.putExtra("pos",0);
