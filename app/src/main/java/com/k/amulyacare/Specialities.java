@@ -58,6 +58,10 @@ public class Specialities extends AppCompatActivity {
             }
         });
 
+        int pos=getIntent().getIntExtra("pos",-1);
+        if(pos!=-1)
+            (tabLayout.getTabAt(pos)).select();
+
     }
 
 
