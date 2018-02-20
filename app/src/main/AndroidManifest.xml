@@ -63,6 +63,15 @@
                 android:value=".MainActivity" />
         </activity>
 
+        <activity
+            android:name=".Treatment"
+            android:label="Treatments"
+            android:parentActivityName=".MainActivity"
+           >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -83,7 +92,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".Treatment"></activity>
+
     </application>
 
 </manifest>

@@ -70,7 +70,8 @@
                     android:layout_height="wrap_content"
                     android:layout_toRightOf="@id/hairspa_image"
                     android:layout_below="@id/hairspa_head"
-                    android:layout_margin="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:fontFamily="railway"
                     android:text="@string/hair_spa"/>
                 <TextView
@@ -78,7 +79,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/hairspa_image"
-                    android:layout_marginLeft="10dp"
+                    android:layout_marginLeft="20dp"
                     android:layout_marginBottom="10dp"
                     android:layout_marginRight="10dp"
                     android:fontFamily="railway"
@@ -138,6 +139,7 @@
                     android:layout_toLeftOf="@id/haircutting_image"
                     android:fontFamily="railway"
                     android:text="@string/hair_cutting"
+                    android:layout_marginBottom="20dp"
                     android:layout_below="@id/haircutting_head"/>
 
             </RelativeLayout>
@@ -185,7 +187,8 @@
                     android:layout_height="wrap_content"
                     android:layout_toRightOf="@id/haircoloring_image"
                     android:layout_below="@id/haircoloring_head"
-                    android:layout_margin="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:fontFamily="railway"
                     android:text="@string/hair_colouring"/>
 
@@ -195,7 +198,9 @@
                     android:layout_height="wrap_content"
 
                     android:layout_below="@id/haircoloring_image"
-                    android:layout_margin="15dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="20dp"
                     android:fontFamily="railway"
                     android:text="@string/hair_colouring1"/>
 
@@ -258,9 +263,10 @@
                     android:id="@+id/pimples_text1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="20dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
                     android:fontFamily="railway"
                     android:text="@string/pimples1"
                     android:layout_below="@id/pimples_image"/>
@@ -286,10 +292,11 @@
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/whitening_image"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="30dp"
                     android:layout_width="120dp"
                     android:layout_height="140dp"
+                    android:layout_alignLeft="@id/whitening_head"
+                    android:layout_alignStart="@id/whitening_head"
+                    android:layout_alignTop="@id/whitening_text"
                     android:src="@drawable/facemasks" />
 
                 <TextView
@@ -310,16 +317,19 @@
                     android:layout_height="wrap_content"
                     android:layout_toRightOf="@id/whitening_image"
                     android:layout_below="@id/whitening_head"
-                    android:layout_margin="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:fontFamily="railway"
                     android:text="@string/whitening"/>
                 <TextView
                     android:id="@+id/whitening_text1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-
                     android:layout_below="@id/whitening_image"
-                    android:layout_margin="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:paddingBottom="20dp"
                     android:fontFamily="railway"
                     android:text="@string/whitening1"/>
 
