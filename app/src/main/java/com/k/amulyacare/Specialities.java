@@ -62,6 +62,7 @@ public class Specialities extends AppCompatActivity {
         if(pos!=-1)
             (tabLayout.getTabAt(pos)).select();
 
+
     }
 
 
