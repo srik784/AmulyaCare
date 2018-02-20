@@ -29,7 +29,7 @@ public class Onlineconsultation extends AppCompatActivity {
                 sendIntent.setAction(Intent.ACTION_SEND);
                 sendIntent.setPackage("com.google.android.gm");
                 sendIntent.putExtra(Intent.EXTRA_TEXT,s);
-                sendIntent.putExtra(Intent.EXTRA_EMAIL ,new String[]{"priyankareddythummala@gmail.com"});
+                sendIntent.putExtra(Intent.EXTRA_EMAIL ,new String[]{"Amulya@somemail.com"});
                 sendIntent.setType("text/plain");
                 startActivity(Intent.createChooser(sendIntent, getResources().getText(R.string.send_to)));
 
