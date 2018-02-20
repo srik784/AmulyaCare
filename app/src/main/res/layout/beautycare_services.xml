@@ -261,6 +261,7 @@
                     android:layout_below="@id/pimples_head"/>
                 <TextView
                     android:id="@+id/pimples_text1"
+android:justificationMode="inter_word"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
