@@ -61,7 +61,7 @@ public class ContactUs extends FragmentActivity implements OnMapReadyCallback {
               EditText et=(EditText)findViewById(R.id.enquairy_message);
               String s1=et.getText().toString();
 
-              String mblNumVar = "9160261625";
+              String mblNumVar = "9440785957";
               Intent smsMsgAppVar = new Intent(Intent.ACTION_VIEW);
               smsMsgAppVar.setData(Uri.parse("sms:" +  mblNumVar));
               smsMsgAppVar.putExtra("sms_body",s1);
