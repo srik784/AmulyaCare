@@ -184,6 +184,7 @@ public class Home extends AppCompatActivity
         if(view.getId()==R.id.obesity)
         {
             it.putExtra("pos",0);
+
         }
         else
         if(view.getId()==R.id.stress)
