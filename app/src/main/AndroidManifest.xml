@@ -9,10 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".Home"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Launcher">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -46,6 +42,11 @@
                 android:value=".Home" />
         </activity>
         <activity
+            android:name=".Home"
+            android:label="Amulya Care"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
             android:name=".Specialities"
             android:label="Specialities"
             android:parentActivityName=".Home"
@@ -58,11 +59,11 @@
         <activity
             android:name=".Treatment"
             android:label="Treatments"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".Home"
            >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value=".Home" />
         </activity>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
