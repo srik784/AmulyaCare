@@ -1,12 +1,14 @@
 package com.k.amulyacare;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.GestureDetector;
@@ -96,6 +98,8 @@ public class Home extends AppCompatActivity
 
             }
         });
+
+
     }
 
     @Override
@@ -123,7 +127,30 @@ public class Home extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_exit) {
+
+            AlertDialog.Builder builder=new AlertDialog.Builder(Home.this); //Home is name of the activity
+            builder.setMessage("Do you want to exit?");
+            builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int id) {
+
+                    finish();
+
+                }
+            });
+
+            builder.setNegativeButton("CANCEL", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int id) {
+                    dialog.cancel();
+
+                }
+            });
+
+            builder.create().show();
+
+
             return true;
         }
 
