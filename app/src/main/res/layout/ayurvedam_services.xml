@@ -306,6 +306,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="5dp"
+                android:paddingBottom="20dp"
                 android:layout_marginBottom="20dp"
                 android:text="2.Kashaya vasthi:- mainly herbal decoction."
                 android:layout_below="@id/vasti_text2"/>

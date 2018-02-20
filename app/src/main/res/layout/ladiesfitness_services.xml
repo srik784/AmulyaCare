@@ -41,7 +41,7 @@
             android:layout_height="wrap_content"
             android:background="#fffae4">
 
-            <de.hdodenhof.circleimageview.CircleImageView
+            <ImageView
                 android:id="@+id/yoga_image"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="30dp"
@@ -92,7 +92,7 @@
             android:layout_height="wrap_content"
             android:background="#fffae4">
 
-            <de.hdodenhof.circleimageview.CircleImageView
+            <ImageView
                 android:id="@+id/aerobics_image"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="40dp"
@@ -142,7 +142,7 @@
             android:layout_height="wrap_content"
             android:background="#fffae4">
 
-            <de.hdodenhof.circleimageview.CircleImageView
+            <ImageView
                 android:id="@+id/gym_image"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="40dp"
@@ -169,8 +169,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/gym_image"
-                android:layout_margin="10dp"
+                android:paddingBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="20dp"
                 android:fontFamily="railway"
+
                 android:text="@string/gym"/>
 
         </RelativeLayout>
