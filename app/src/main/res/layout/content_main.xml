@@ -127,6 +127,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_below="@id/vata_heading"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="5dp"
                         android:layout_toRightOf="@id/vata_image"
                         android:text="@string/vata"
                         />
@@ -170,6 +173,8 @@
                         android:id="@+id/kapha_text"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
                         android:layout_below="@id/kapha_heading"
                         android:layout_toRightOf="@id/kapha_image"
                         android:text="@string/kapha"
@@ -214,6 +219,8 @@
                         android:id="@+id/pitta_text"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
                         android:layout_below="@id/pitta_heading"
                         android:layout_toRightOf="@id/pitta_image"
                         android:text="@string/kapha"
@@ -261,6 +268,8 @@
                         android:id="@+id/procedure1_text"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
                         android:layout_below="@id/procedure1_heading"
                         android:text="@string/procedure1_text"/>
                     <ImageView
@@ -270,7 +279,7 @@
                         android:src="@drawable/add"
                         android:layout_below="@id/procedure1_text"
                         android:layout_alignEnd="@id/procedure1_text"
-                        />
+                        android:layout_alignRight="@id/procedure1_text" />
                 </RelativeLayout>
 
             </android.support.v7.widget.CardView>
@@ -299,6 +308,8 @@
                         android:id="@+id/procedure2_text"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
                         android:layout_below="@id/procedure2_heading"
                         android:text="@string/procedure2_text"/>
                     <ImageView
@@ -308,7 +319,7 @@
                         android:src="@drawable/add"
                         android:layout_below="@id/procedure2_text"
                         android:layout_alignEnd="@id/procedure2_text"
-                        />
+                        android:layout_alignRight="@id/procedure2_text" />
                 </RelativeLayout>
 
             </android.support.v7.widget.CardView>
