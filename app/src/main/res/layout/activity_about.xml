@@ -35,8 +35,11 @@
             android:id="@+id/about1"
             android:layout_below="@id/about"
             android:layout_marginTop="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
             android:textColor="#fffacf"
             android:text="NO MEDICINE CAN COMPENSATE FOR UN-HEALTHY LIVING"
             android:background="#806951">
@@ -72,12 +75,15 @@
                     android:id="@+id/about_text1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
                     android:text="@string/aboutus_1"
                     android:layout_toLeftOf="@id/image"/>
                 <TextView
                     android:id="@+id/about_text2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
                     android:layout_below="@id/about_text1"
                     android:text="@string/aboutus_2"/>
 
@@ -108,7 +114,9 @@
                     android:id="@+id/owner"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
                     android:background="@drawable/rounded"
                     android:src="@drawable/owner" />
 
@@ -117,7 +125,8 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/about_person"
                     android:layout_toRightOf="@id/owner"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="10dp"
                     android:text="Dr.P M Krishnan Namboothiripad
 Bsc, BAM Chief physician,
 A-Class Medical practitioner
@@ -148,6 +157,7 @@ Reg No 4372(kerala) Indigenous System Of Medicine"/>
                     android:src="@drawable/amulya"
                     android:id="@+id/owner1"
                     android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="wrap_content"
@@ -181,6 +191,7 @@ Reg No 4372(kerala) Indigenous System Of Medicine"/>
                     android:src="@drawable/venu"
                     android:id="@+id/owner2"
                     android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
                     android:layout_marginLeft="20dp"/>
 
 
